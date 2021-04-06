@@ -1,5 +1,5 @@
 # Nextron - UserBot
-# Copyright (C) 2020 Teamwasp
+# Copyright (C) 2021 Teamwasp
 #
 # This file is a part of < https://github.com/majid-nex/nextron-bot/ >
 # PLease read the GNU Affero General Public License in
