@@ -4,14 +4,14 @@ import asyncio
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 try:
-  from LEGENDX import devs, id, ID, LEGEND
+  from userbot import devs, id, ID, LEGEND
 except:
   os.system("pip install LEGENDX")
 try:
-  from ULTRA import bot 
+  from NEXTRON import bot 
 except:
   pass
-from LEGENDX import devs, id, ID
+from userbot import devs, id, ID
 API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
 token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
