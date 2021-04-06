@@ -1,15 +1,15 @@
 import os
 try:
-  from LEGENDX import id, ID, devs, LEGEND
+  from userbot import id, ID, devs, LEGEND
 except:
   os.system("pip install LEGENDX")
-  from LEGENDX import id, ID, devs, LEGEND
+  from userbot import id, ID, devs, LEGEND
 else:
   print ("something got fucked")
 finally:
-  print ("ULTRA X IS STARTING WITH TELETHON")
-  from ULTRAX import xbot
-from ULTRA import bot
+  print ("NEXTRON IS STARTING WITH TELETHON")
+  from userbot import xbot
+from NEXTRON import bot
 from sys import argv
 import sys
 import os
@@ -19,8 +19,8 @@ from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient, Button
 from var import Var
-from ULTRA.utils import load_module, load_pro
-from ULTRA import LOAD_PLUG, BOTLOG_CHATID
+from NEXTRON.utils import load_module, load_pro
+from NEXTRON import LOAD_PLUG, BOTLOG_CHATID
 from pathlib import Path
 import asyncio
 TOKEN = os.environ.get("TG_BOT_TOKEN", None)
@@ -56,7 +56,7 @@ import glob
 
 
 
-path = 'ULTRA/plugins/assistant/*.py'
+path = 'plugins/assistant/*.py'
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
@@ -67,7 +67,7 @@ for name in files:
 
 if  EXTRA_PLUGS == True:
     os.system("git clone https://github.com/ULTRA-OP/ULTRA_PLUGS.git ./ULTRA/plugins/")
-    path = "ULTRA/plugins/*.py"
+    path = "plugins/*.py"
     files = glob.glob(path)
     for name in files:
         with open(name) as a:
@@ -81,7 +81,7 @@ if  EXTRA_PLUGS == True:
                 pass
 
 else:
-  path = 'ULTRA/plugins/*.py'
+  path = 'plugins/*.py'
   files = glob.glob(path)
   for name in files:
       with open(name) as f:
@@ -90,7 +90,7 @@ else:
           load_module(shortname.replace(".py", ""))
 
 
-import ULTRA._core
+import userbot._core
 
 print("Nextron is Awake! ©️ Teamwasp")
 async def legend():
