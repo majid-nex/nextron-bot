@@ -1,1 +1,1 @@
-Nextron: python3 -m userbot
+nextron-bot: python3 -m userbot
