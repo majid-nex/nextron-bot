@@ -24,14 +24,23 @@ file2 = "https://telegra.ph/file/b635b26bcb08c7fe705c9.jpg"
 file3 = "https://telegra.ph/file/e027c90d03bae039ab58e.jpg"
 file4 = "https://telegra.ph/file/21e8ba90ef8b22fa6a864.jpg"
 """ =======================CONSTANTS====================== """
-pm_caption = " NEXTRON IS ONLINE\n\n"
-pm_caption += "Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...\n\n"
-pm_caption += "✘ About My System ✘\n\n"
-pm_caption += "➾ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ ☞ 1.18.2\n"
-pm_caption += "➾ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ☞ [ᴊᴏɪɴ](https://t.me/nextronsupport)\n"
-pm_caption += "➾ ʟɪᴄᴇɴꜱᴇ  ☞ [TEAM NEXTRON](https://github.com/majid-nex)\n"
-pm_caption += "➾ group ☞ [NEXTRON TEAM](https://t.me/nextronsupport)\n\n"
-pm_caption += f"➾ ᴍʏ ᴍᴀsᴛᴇʀ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+pm_caption = "__**🔥🔥NEXTRON IS ONLINE🔥🔥**__\n\n"
+
+pm_caption += (
+    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
+)
+
+pm_caption += f"🛡️TELETHON🛡️ : `{version.__version__}` \n"
+
+pm_caption += f"😤NEXTRON😤       : __**{hellversion}**__\n"
+
+pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
+
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/Nextron_Official)\n"
+
+pm_caption += "🔥SUPPORT🔥    : [Cum Here](https://t.me/nextronsupport)\n\n"
+
+pm_caption += "    [✨REPO✨](https://github.com/majid-nex/nextron-bot) 🔹 [📜License📜](https://github.com/majid-nex/nextron-bot/blob/master/LICENSE)"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
