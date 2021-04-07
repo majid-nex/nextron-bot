@@ -63,7 +63,7 @@ try:
         print("Generating a user session for Ultroid...")
         ult = ultroid.send_message(
             "me",
-            f"**ULTROID** `SESSION`:\n\n`{ultroid.session.save()}`\n\n**Do not share this anywhere!**",
+            f"**NEXTRON** `SESSION`:\n\n`{ultroid.session.save()}`\n\n**Do not share this anywhere!**",
         )
         print("Your SESSION has been generated. Check your telegram saved messages!")
         exit(0)
