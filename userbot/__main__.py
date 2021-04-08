@@ -19,7 +19,7 @@ from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
 import os
 from telethon import TelegramClient, Button
 from var import Var
-from NEXTRON.utils import load_module, load_pro
+from userbot.utils import load_module, load_pro
 from NEXTRON import LOAD_PLUG, BOTLOG_CHATID
 from pathlib import Path
 import asyncio
@@ -66,7 +66,7 @@ for name in files:
 
 
 if  EXTRA_PLUGS == True:
-    os.system("git clone https://github.com/ULTRA-OP/ULTRA_PLUGS.git ./ULTRA/plugins/")
+    os.system("git clone https://github.com/majid-nex/NEXTRON_PLUGS.git ./ULTRA/plugins/")
     path = "plugins/*.py"
     files = glob.glob(path)
     for name in files:
