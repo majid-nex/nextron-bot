@@ -24,7 +24,7 @@ from userbot.helpers.exceptions import CancelProcess
 
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
-    from ULTRA.uniborgConfig import Config
+    from userbot.uniborgConfig import Config
 else:
     if os.path.exists("config.py"):
         from config import Development as Config
@@ -36,7 +36,7 @@ def load_extra(shortname):
     if shortname.startswith("__"):
         pass
     elif shortname.endswith("_"):
-        import ULTRA.utils
+        import userbot.utils
 
         path = Path(f"ULTRA_PLUGS/{shortname}.py")
         name = "ULTRA_PLUGS.{}".format(shortname)
@@ -45,7 +45,7 @@ def load_extra(shortname):
         spec.loader.exec_module(mod)
         LOGS.info("Successfully imported " + shortname)
     else:
-        import ULTRA.utils
+        import userbot.utils
 
         path = Path(f"ULTRA_PLUGS/{shortname}.py")
         name = "ULTRA_PLUGS.{}".format(shortname)
@@ -74,7 +74,7 @@ def load_module(shortname):
     if shortname.startswith("__"):
         pass
     elif shortname.endswith("_"):
-        import ULTRA.utils
+        import userbot.utils
 
         path = Path(f"ULTRA/plugins/{shortname}.py")
         name = "ULTRA.plugins.{}".format(shortname)
@@ -83,7 +83,7 @@ def load_module(shortname):
         spec.loader.exec_module(mod)
         LOGS.info("Successfully imported " + shortname)
     else:
-        import ULTRA.utils
+        import userbot.utils
 
         path = Path(f"ULTRA/plugins/{shortname}.py")
         name = "ULTRA.plugins.{}".format(shortname)
@@ -111,7 +111,7 @@ def load_pro(shortname):
     if shortname.startswith("__"):
         pass
     elif shortname.endswith("_"):
-        import ULTRA.utils
+        import userbot.utils
 
         path = Path(f"ULTRA/plugins/assistant/{shortname}.py")
         name = "ULTRA.plugins.assistant.{}".format(shortname)
@@ -120,7 +120,7 @@ def load_pro(shortname):
         spec.loader.exec_module(mod)
         LOGS.info("Successfully imported " + shortname)
     else:
-        import ULTRA.utils
+        import userbot.utils
 
         path = Path(f"ULTRA/plugins/assistant/{shortname}.py")
         name = "ULTRA.plugins.assistant.{}".format(shortname)
@@ -153,7 +153,7 @@ def remove_plugin(shortname):
             del LOAD_PLUG[shortname]
 
         except BaseException:
-            name = f"ULTRA.plugins.{shortname}"
+            name = f"plugins.{shortname}"
 
             for i in reversed(range(len(bot._event_builders))):
                 ev, cb = bot._event_builders[i]
