@@ -10,7 +10,7 @@ from userbot.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 3
 thumb_image_path = "./NEX-GEN/NEXTRON_BOT.png"
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ULTRA X"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "NEXTRON"
 
 
 @bot.on(admin_cmd(pattern=r"send (?P<shortname>\w+)", outgoing=True))
