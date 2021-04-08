@@ -6,6 +6,7 @@ PyDictionary
 PyPDF2
 pygments
 pymediainfo
+asyncio
 aiofiles
 asyncurban
 aiohttp
