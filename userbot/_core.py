@@ -9,7 +9,7 @@ from userbot.utils import admin_cmd, load_module, remove_plugin, sudo_cmd
 from userbot.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 3
-thumb_image_path = "./Resources/nextron.jpg"
+thumb_image_path = "./NEX-GEN/NEXTRON_BOT.png"
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ULTRA X"
 
 
