@@ -8,7 +8,7 @@ import time
 from telethon import events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 
-from userbot.plugins.sql_helper import pmpermit_sql as pmpermit_sql
+from plugins.sql_helper import pmpermit_sql as pmpermit_sql
 from userbot import ALIVE_NAME, CUSTOM_PMPERMIT, hell_ID
 from userbot.Config import Config
 from userbot.utils import admin_cmd
