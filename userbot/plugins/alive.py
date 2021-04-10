@@ -34,7 +34,7 @@ pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
 pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/Nextron_Official)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/Mr_Godfather9)\n\n"
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/Iamjannat)\n\n"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
