@@ -25,16 +25,16 @@ from telethon.tl.functions.channels import JoinChannelRequest
 
 from userbot import *
 from userbot.cmdhelp import *
-from hellbot.utils import *
+from userbot.utils import *
 from userbot.Config import Config
 
-hell_row = Config.BUTTONS_IN_HELP
-hell_emoji = Config.EMOJI_IN_HELP
+Nex_row = Config.BUTTONS_IN_HELP
+Nex_emoji = Config.EMOJI_IN_HELP
 # thats how a lazy guy imports
 # hellbot
 
 def button(page, modules):
-    Row = hell_row
+    Row = Nex_row
     Column = 3
 
     modules = sorted([modul for modul in modules if not modul.startswith("_")])
@@ -47,7 +47,7 @@ def button(page, modules):
     for pairs in pairs[page]:
         buttons.append(
             [
-                custom.Button.inline(f"{hell_emoji} " + pair, data=f"Information[{page}]({pair})")
+                custom.Button.inline(f"{Nex_emoji} " + pair, data=f"Information[{page}]({pair})")
                 for pair in pairs
             ]
         )
@@ -55,13 +55,13 @@ def button(page, modules):
     buttons.append(
         [
             custom.Button.inline(
-               f"◀️ ᏰᎯᏣᏦ {hell_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"
+               f"◀️ ᏰᎯᏣᏦ {Nex_emoji}", data=f"page({(max_pages - 1) if page == 0 else (page - 1)})"
             ),
             custom.Button.inline(
-               f"•{hell_emoji} ❌ {hell_emoji}•", data="close"
+               f"•{Nex_emoji} ❌ {Nex_emoji}•", data="close"
             ),
             custom.Button.inline(
-               f"{hell_emoji} ᏁᏋﾒᎿ ▶️", data=f"page({0 if page == (max_pages - 1) else page + 1})"
+               f"{Nex_emoji} ᏁᏋﾒᎿ ▶️", data=f"page({0 if page == (max_pages - 1) else page + 1})"
             ),
         ]
     )
@@ -80,7 +80,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             veriler = button(0, sorted(CMD_HELP))
             result = await builder.article(
                 f"Hey! Only use .help please",
-                text=f"**Running HellBot**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
+                text=f"**Running Nextron**\n\n__Number of plugins installed__ :`{len(CMD_HELP)}`\n**page:** 1/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False,
             )
@@ -95,17 +95,17 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         else:
             result = builder.article(
                 "@HellBot_Official",
-                text="""**Hey! This is [Hêllẞø†.](https://t.me/HellBot_Official) \nYou can know more about me from the links given below 👇**""",
+                text="""**Hey! This is [Nextron.](https://t.me/Nextron_Official) \nYou can know more about me from the links given below 👇**""",
                 buttons=[
                     [
-                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/HellBot_Official"),
+                        custom.Button.url("🔥 CHANNEL 🔥", "https://t.me/Nextron_Official"),
                         custom.Button.url(
-                            "⚡ GROUP ⚡", "https://t.me/HellBot_Official_Chat"
+                            "⚡ GROUP ⚡", "https://t.me/Nextronsupport"
                         ),
                     ],
                     [
                         custom.Button.url(
-                            "✨ REPO ✨", "https://github.com/HellBoy-OP/HellBot"),
+                            "✨ REPO ✨", "https://github.com/majid-nex/nextron-bot"),
                         custom.Button.url
                     (
                             "🔰 TUTORIAL 🔰", "https://youtu.be/M2FQJq_sHp4"
@@ -120,14 +120,14 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def page(event):
         if not event.query.user_id == bot.uid:
             return await event.answer(
-                "Hoo gya aapka. Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Hêllẞø† ™",
+                "Hoo gya aapka. Kabse tapar tapar dabaye jaa rahe ho. Khudka bana lo na agar chaiye to. © Nextron ™",
                 cache_time=0,
                 alert=True,
             )
         page = int(event.data_match.group(1).decode("UTF-8"))
         veriler = button(page, CMD_HELP)
         await event.edit(
-            f"**Legenday AF** [Hêllẞøt](https://t.me/HellBot_Official) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
+            f"**Legenday AF** [Nextron](https://t.me/Nextron_Official) __Working...__\n\n**Number of modules installed :** `{len(CMD_HELP)}`\n**page:** {page + 1}/{veriler[0]}",
             buttons=veriler[1],
             link_preview=False,
         )
@@ -136,7 +136,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
             await delete_hell(event,
-              "⚜️Hêllẞø† Menu Provider Is now Closed⚜️\n\n         **[© Hêllẞø† ™](t.me/hellbot_official)**", 5, link_preview=False
+              "⚜️Nextron Menu Provider Is now Closed⚜️\n\n         **[© Nextron ™](t.me/Nextron_official)**", 5, link_preview=False
             )
         else:
             hell_alert = "Ho gya aapka? Kabse tapar tapar dabae jaa rhe h. Khudka bna lo na agr chaiye to. © Héllẞø† ™"
