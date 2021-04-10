@@ -2,12 +2,12 @@
 
 from userbot import *
 from userbot import CMD_HELP
-from hellbot.utils import *
+from userbot.utils import *
 
 
 @bot.on(admin_cmd(pattern="plinfo(?: |$)(.*)", outgoing=True))
 @bot.on(sudo_cmd(pattern="plinfo(?: |$)(.*)", allow_sudo=True))
-async def hellbott(event):
+async def Nextron(event):
     if event.fwd_from:
         return
     """ .plinfo cmd """
