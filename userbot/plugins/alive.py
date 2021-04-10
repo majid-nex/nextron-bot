@@ -8,7 +8,7 @@ from telethon.tl.types import Channel, Chat, User
 
 #-------------------------------------------------------------------------------
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Nextron User"
 
 ludosudo = Config.SUDO_USERS
 
@@ -17,7 +17,7 @@ if ludosudo:
 else:
     sudou = "False"
 
-kraken = bot.uid
+Nex-Gen = bot.uid
 
 PM_IMG = "https://telegra.ph/file/80e5200c615cf0cb57aa9.mp4"
 pm_caption = "__**🔥🔥Nextron ɨs օռʟɨռɛ🔥🔥**__\n\n"
@@ -32,11 +32,9 @@ pm_caption += f"😈Hêllẞø†😈       : __**{hellversion}**__\n"
 
 pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/Nextron_Official)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/SupRemE_AnanD)\n\n"
-
-pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot) 🔹 [📜License📜](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)"
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/Mr_Godfather9)\n\n"
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
