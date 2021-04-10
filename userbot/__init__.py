@@ -1,4 +1,3 @@
-
 import os
 import sys
 import time
@@ -7,9 +6,8 @@ from telethon import TelegramClient
 from userbot.helpers import functions as simpdef
 from userbot.uniborgConfig import Config
 from var import Var
-
+legendversion = "3.0"
 StartTime = time.time()
-legendversion = "2.0" 
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
