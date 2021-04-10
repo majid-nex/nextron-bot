@@ -7,7 +7,7 @@ import asyncio
 from userbot.cmdhelp import CmdHelp
 
 from userbot import *
-from hellbot.utils import *
+from userbot.utils import *
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Hell User"
 
