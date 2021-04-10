@@ -8,7 +8,7 @@ from telethon import events
 from telethon.tl import functions, types
 
 from userbot import CMD_HELP
-from hellbot.utils import admin_cmd, edit_or_reply
+from userbot.utils import admin_cmd, edit_or_reply
 from userbot.cmdhelp import CmdHelp
 
 
@@ -56,7 +56,7 @@ async def set_not_afk(event):
                 event.chat_id,
                 "Please set `PRIVATE_GROUP_BOT_API_ID` "
                 + "for the proper functioning of afk functionality "
-                + "Ask in @HellBot_Official_Chat to get help setting this value\n\n `{}`".format(str(e)),
+                + "Ask in @Nextron_Official_Chat to get help setting this value\n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True,
             )
