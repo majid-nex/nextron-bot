@@ -1,5 +1,4 @@
 # credits to userge
-# ported to Hellbot by @SupRemE_AnanD
 # will be adding more soon
 
 import asyncio
@@ -9,7 +8,7 @@ import urllib
 import requests
 
 from userbot import *
-from hellbot.utils import *
+from userbot.utils import *
 from userbot.cmdhelp import CmdHelp
 
 @bot.on(admin_cmd("boobs$"))
