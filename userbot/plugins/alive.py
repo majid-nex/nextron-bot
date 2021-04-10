@@ -1,5 +1,5 @@
 from userbot import *
-from hellbot.utils import *
+from userbot.utils import *
 from userbot.cmdhelp import CmdHelp
 from telethon import events, version
 from telethon.events import NewMessage
@@ -20,7 +20,7 @@ else:
 kraken = bot.uid
 
 PM_IMG = "https://telegra.ph/file/80e5200c615cf0cb57aa9.mp4"
-pm_caption = "__**🔥🔥ɦɛʟʟɮօt ɨs օռʟɨռɛ🔥🔥**__\n\n"
+pm_caption = "__**🔥🔥Nextron ɨs օռʟɨռɛ🔥🔥**__\n\n"
 
 pm_caption += (
     f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
