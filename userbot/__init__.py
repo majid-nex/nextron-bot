@@ -4,10 +4,12 @@ import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
 from userbot.helpers import functions as simpdef
-from userbot.uniborgConfig import Config
+from userbot.Config import Config
 from var import Var
-legendversion = "3.0"
+
 StartTime = time.time()
+hellversion = "2.3.2"
+botversion = "0.1"
 
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
@@ -29,7 +31,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-LEGEND_ID = ["1100231654"]
+hell_ID = ["1347610095"]
 
 """ PPE initialization. """
 
@@ -54,6 +56,17 @@ if bool(ENV):
                     level=INFO)
     LOGS = getLogger(__name__)
 
+try:
+    if Config.HEROKU_API_KEY is not None or Config.HEROKU_APP_NAME is not None:
+        HEROKU_APP = heroku3.from_key(Config.HEROKU_API_KEY).apps()[
+            Config.HEROKU_APP_NAME
+        ]
+    else:
+        HEROKU_APP = None
+except:
+    HEROKU_APP = None
+
+
     # Check if the config was edited by using the already used variable.
     # Basically, its the 'virginity check' for the config file ;)
     CONFIG_CHECK = os.environ.get(
@@ -75,9 +88,8 @@ if bool(ENV):
     # Userbot logging feature switch.
     BOTLOG = sb(os.environ.get("BOTLOG", "False"))
     LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
-    PATTERNS = os.environ.get("PATTERNS", ".;!,")
-    COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"\.")
-  
+    COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r".")
+
     # Bleep Blop, this is a bot ;)
     PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
@@ -108,9 +120,6 @@ if bool(ENV):
     # FedBan Premium Module
     F_BAN_LOGGER_GROUP = os.environ.get("F_BAN_LOGGER_GROUP", None)
 
-    #make by LEGEND X 
-    botnickname = os.environ.get("BOT_NICK_NAME", None)
-
 # Heroku Credentials for updater.
     HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -140,7 +149,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/LEGENDXOP/LEGEND-BOT.git")
+    "https://github.com/HellBoy-OP/HellBot.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -199,4 +208,5 @@ SUDO_LIST = {}
 
 
 from userbot.helpers import *
-from userbot.helpers import functions as legdef
+from userbot.helpers import functions as helldef
+from userbot.cmdhelp import CmdHelp
