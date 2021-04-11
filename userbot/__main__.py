@@ -1,3 +1,4 @@
+from userbot import bot
 from sys import argv
 import sys
 from telethon.errors.rpcerrorlist import PhoneNumberInvalidError
@@ -50,10 +51,10 @@ for name in files:
 
 import userbot._core
 
-print(f"""NEXTRON IS ON!!! NEXTRON VERSION :- {nextronversion}
+print(f"""HELLBOT IS ON!!! HELLBOT VERSION :- {hellversion}
 JOIN OFFICIAL CHAT GROUP AND UPDATES CHANNEL
-OFFICIAL GROUP :- @MEXTRON_OFFICIAL
-OFFICIAL CHANNEL :- @NEXTRON_OFFICIAL
+OFFICIAL GROUP :- @HELLBOT_OFFICIAL_CHAT
+OFFICIAL CHANNEL :- @HELLBOT_OFFICIAL
 DO .alive OR .ping CHECK IF I'M ON!
 IF YOU FACE ANY ISSUE THEN ASK AT CHAT GROUP.""")
 
