@@ -1,16 +1,5 @@
-# credits to userge
-# ported to Hellbot by @SupRemE_AnanD
-# will be adding more soon
-
-import asyncio
-import os
-import urllib
-
-import requests
-
-from userbot import *
-from NEXTRON.utils import *
-from userbot.cmdhelp import CmdHelp
+import os, urllib, requests, asyncio
+from userbot.utils import admin_cmd,edit_or_reply, sudo_cmd
 
 @bot.on(admin_cmd("boobs$"))
 @bot.on(sudo_cmd(pattern="boobs$", allow_sudo=True))
