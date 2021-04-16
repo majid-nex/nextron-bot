@@ -1,8 +1,6 @@
-"""HellBot Help Command"""
-
 from userbot import *
 from userbot import CMD_HELP
-from hellbot.utils import *
+from NEXTRON.utils import *
 
 
 @bot.on(admin_cmd(pattern="plinfo(?: |$)(.*)", outgoing=True))
