@@ -12,7 +12,6 @@ from pathlib import Path
 import asyncio
 import telethon.utils
 
-
 async def add_bot(bot_token):
     await bot.start(bot_token)
     bot.me = await bot.get_me() 
