@@ -171,6 +171,6 @@ def get_readable_time(seconds: int) -> str:
 
 import time
 import datetime
-from userbpt import StartTime
+from userbot import StartTime
 def upt():
    uptm = get_readable_time((time.time() - StartTime))
