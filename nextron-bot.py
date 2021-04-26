@@ -5,7 +5,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession
 os.system("pip install LEGENDX==0.0.21")
 try:
-  from NEXTRON import bot 
+  from userbot import bot 
 except:
   pass
 from LEGENDX import devs, id, ID
