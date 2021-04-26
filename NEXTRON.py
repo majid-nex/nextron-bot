@@ -9,7 +9,7 @@ try:
 except:
   pass
 from LEGENDX import devs, id, ID
-API_ID = os.environ.get("APP_ID"None)
+API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
 token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
 xbot = TelegramClient("legend", API_ID, API_HASH).start(bot_token=token)
