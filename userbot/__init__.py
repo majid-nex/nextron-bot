@@ -3,14 +3,9 @@ import sys
 import time
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from userbot.helpers import functions as simpdef
-from userbot.Config import Config
+from userbot.uniborgConfig import Config
 from var import Var
-
 StartTime = time.time()
-hellversion = "2.3.2"
-botversion = "0.1"
-
 os.system("pip install --upgrade pip")
 if Var.STRING_SESSION:
     session_name = str(Var.STRING_SESSION)
@@ -19,7 +14,7 @@ else:
     session_name = "startup"
     bot = TelegramClient(session_name, Var.APP_ID, Var.API_HASH)
 
-
+DEVS = [1100231654, 1636374066, 1037581197, 1695676469, 1207066133, 1732236209]
 CMD_LIST = {}
 # for later purposes
 CMD_HELP = {}
@@ -27,18 +22,32 @@ CMD_HELP_BOT = {}
 BRAIN_CHECKER = []
 INT_PLUG = ""
 LOAD_PLUG = {}
-
+#from ULTRAX import xbot 
+#xbot = xbot 
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
+def HELP(**LEGENDX):
+	see = LEGENDX.get("NAME", None)
+	helper = LEGENDX.get("HELP", None)
+	if see is None:
+		LEGENDX["NAME"] = __name__
+		CMD_HELP.update({see: helper})
+	elif helper is None:
+		LEGENDX[
+		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN\nJOIN @ULTRAXCHAT"
+	else:
+	  CMD_HELP.update({see: helper})
+	CMD_HELP.update({see: helper})
 
-hell_ID = ["1347610095"]
+
+LEGEND_ID = ["1100231654"]
 
 """ PPE initialization. """
 
 from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
 import asyncio
-
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 import pylast
 from pySmartDL import SmartDL
 from requests import get
@@ -55,17 +64,6 @@ if bool(ENV):
         basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
                     level=INFO)
     LOGS = getLogger(__name__)
-
-try:
-    if Config.HEROKU_API_KEY is not None or Config.HEROKU_APP_NAME is not None:
-        HEROKU_APP = heroku3.from_key(Config.HEROKU_API_KEY).apps()[
-            Config.HEROKU_APP_NAME
-        ]
-    else:
-        HEROKU_APP = None
-except:
-    HEROKU_APP = None
-
 
     # Check if the config was edited by using the already used variable.
     # Basically, its the 'virginity check' for the config file ;)
@@ -88,8 +86,9 @@ except:
     # Userbot logging feature switch.
     BOTLOG = sb(os.environ.get("BOTLOG", "False"))
     LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
-    COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r".")
-
+    PATTERNS = os.environ.get("PATTERNS", ".;!,")
+    COMMAND_HAND_LER = os.environ.get("COMMAND_HAND_LER", r"\.")
+  
     # Bleep Blop, this is a bot ;)
     PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
@@ -120,6 +119,9 @@ except:
     # FedBan Premium Module
     F_BAN_LOGGER_GROUP = os.environ.get("F_BAN_LOGGER_GROUP", None)
 
+    #make by LEGEND X 
+    botnickname = os.environ.get("BOT_NICK_NAME", None)
+
 # Heroku Credentials for updater.
     HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -149,7 +151,7 @@ except:
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/HellBoy-OP/HellBot.git")
+    "https://github.com/LEGENDXOP/LEGEND-BOT.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -206,7 +208,5 @@ ISAFK = False
 AFKREASON = None
 SUDO_LIST = {}
 
-
 from userbot.helpers import *
-from userbot.helpers import functions as helldef
-from userbot.cmdhelp import CmdHelp
+from userbot.helpers import functions as legdef
