@@ -35,8 +35,8 @@ pm_caption += "Yes Master, Am Alive And Systems Are Working Perfectly As It Shou
 pm_caption += "✘ About My System ✘\n\n"
 pm_caption += "➾ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ ☞ 1.1.1\n"
 pm_caption += "➾ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ☞ [ᴊᴏɪɴ](https://t.me/hackerget0)\n"
-pm_caption += "➾ ʟɪᴄᴇɴꜱᴇ  ☞ [TEAM LEGEND](https://github.com/nextron-bot)\n"
-pm_caption += "➾ group ☞ [LEGEND TEAM](https://t.me/nextronsupport)\n\n"
+pm_caption += "➾ ʟɪᴄᴇɴꜱᴇ  ☞ [SUPPORT](https://github.com/nextron-bot)\n"
+pm_caption += "➾ group ☞ [SUPPORT](https://t.me/nextronsupport)\n\n"
 pm_caption += f"➾ ᴍʏ ᴍᴀsᴛᴇʀ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
