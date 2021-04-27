@@ -25,10 +25,7 @@ global ghanti
 ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/a44f1363bddbba84a2b98.jpg"
-file2 = "https://telegra.ph/file/b635b26bcb08c7fe705c9.jpg"
-file3 = "https://telegra.ph/file/e027c90d03bae039ab58e.jpg"
-file4 = "https://telegra.ph/file/21e8ba90ef8b22fa6a864.jpg"
+file1 = "https://telegra.ph/file/ada158c12209658274f0d.jpg"
 """ =======================CONSTANTS====================== """
 pm_caption = " NEXTRON BOT IS ONLINE\n\n"
 pm_caption += "Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...\n\n"
@@ -115,7 +112,7 @@ async def amireallyalive(alive):
         pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
         pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/nextronsupport)\n"
         pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/nextronsupport)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ LEGEND X](https://t.me/mr_godfather9)\n"
+        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ MAJID](https://t.me/mr_godfather9)\n"
         pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/Dark_cobra_support_group)"
         chat = await alive.get_chat()
         await alive.delete()
@@ -123,7 +120,7 @@ async def amireallyalive(alive):
         await borg.send_file(alive.chat_id, ALIVE_PHOTTO,caption=pm_caption, link_preview = False)
         await allive.delete()
         return
-    req = requests.get("https://telegra.ph/file/6d067b1a626a25735f5ed.png")
+    req = requests.get("https://telegra.ph/file/ada158c12209658274f0d.jpg")
     req.raise_for_status()
     file = BytesIO(req.content)
     file.seek(0)
