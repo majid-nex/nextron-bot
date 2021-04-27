@@ -303,7 +303,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         if ULTRA_X.is_approved(chat_ids):
             return
         if not ULTRA_X.is_approved(chat_ids):
-            await LEGENDX (ultra, "pmsecurity")
+            await LEGENDX (userbot, "pmsecurity")
 
     
 
