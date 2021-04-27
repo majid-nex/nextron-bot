@@ -31,7 +31,7 @@ USER_BOT_WARN_ZERO = "**You were spamming my sweet master's inbox, henceforth yo
 USER_BOT_NO_WARN = (
     "Hello, This is **ŊêxţřǾח Úl†rã Pr¡va†e Security Protocol⚠️**.\n"
     f"This is my master {DEFAULTUSER}'s Inbox\n"
-    f"\n**{NEX-GEN}**\n\n"
+    f"\n**{KRAKEN}**\n\n"
     "To start a valid conversation\n🔱Register Your Request!🔱\nSend `/start` To Register Your Request\nHopefully u will get a reply🔥"
 )
 
