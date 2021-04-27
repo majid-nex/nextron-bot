@@ -14,7 +14,7 @@ from NEXTRON import PHOTO
 from userbot.utils import admin_cmd, sudo_cmd
 from platform import uname
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "υℓтяα χ"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Nextron χ"
 
 
 #@command(pattern="^.help ?(.*)")
