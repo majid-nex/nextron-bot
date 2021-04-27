@@ -6,11 +6,9 @@ import time
 from telethon import events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 
-from userbot.plugins.sql_helper import pmpermit_sql as pmpermit_sql
+import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from userbot import ALIVE_NAME, CUSTOM_PMPERMIT
-from userbot.Config import Config
-from LEGENDX.utils import admin_cmd
-from userbot.cmdhelp import CmdHelp
+from userbot.utils import admin_cmd
 
 PM_TRUE_FALSE = Config.PM_DATA
 
