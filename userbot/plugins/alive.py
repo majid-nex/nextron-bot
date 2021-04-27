@@ -35,8 +35,8 @@ pm_caption += "Yes Master, Am Alive And Systems Are Working Perfectly As It Shou
 pm_caption += "✘ About My System ✘\n\n"
 pm_caption += "➾ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ ☞ 1.1.1\n"
 pm_caption += "➾ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ ☞ [ᴊᴏɪɴ](https://t.me/hackerget0)\n"
-pm_caption += "➾ ʟɪᴄᴇɴꜱᴇ  ☞ [TEAM LEGEND](https://github.com/legendx22)\n"
-pm_caption += "➾ group ☞ [LEGEND TEAM](https://t.me/teamishere)\n\n"
+pm_caption += "➾ ʟɪᴄᴇɴꜱᴇ  ☞ [TEAM LEGEND](https://github.com/nextron-bot)\n"
+pm_caption += "➾ group ☞ [LEGEND TEAM](https://t.me/nextronsupport)\n\n"
 pm_caption += f"➾ ᴍʏ ᴍᴀsᴛᴇʀ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
@@ -113,13 +113,13 @@ async def amireallyalive(alive):
         pm_caption += f"𝕄𝕪 𝔹𝕠𝕤𝕤            : {DEFAULTUSER}\n"
         pm_caption += "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.1.1\n"
         pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-        pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/teamishere)\n"
-        pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/teamishere)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ LEGEND X](https://t.me/legendx22)\n"
+        pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/nextronsupport)\n"
+        pm_caption += "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/nextronsupport)\n"
+        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ LEGEND X](https://t.me/mr_godfather9)\n"
         pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/Dark_cobra_support_group)"
         chat = await alive.get_chat()
         await alive.delete()
-        """ For .allive command, check if the bot is running.  """
+        """ For .alive command, check if the bot is running.  """
         await borg.send_file(alive.chat_id, ALIVE_PHOTTO,caption=pm_caption, link_preview = False)
         await allive.delete()
         return
@@ -133,12 +133,12 @@ async def amireallyalive(alive):
         sticker.name = "sticker.webp"
         sticker.seek(0)
         await borg.send_file(alive.chat_id, file=sticker)
-        await borg.send_message(alive.chat_id,"𝙳𝙰𝚁𝙺 𝙲𝙾𝙱𝚁𝙰 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴\n"
+        await borg.send_message(alive.chat_id,"NEXTRON 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴\n"
                       f"𝕄𝕪 𝔹𝕠𝕤𝕤            : {DEFAULTUSER}\n"
                       "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.1.1\n"
                       "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-                      "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/teamishere)\n"
-                      "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/teamishere)\n"
-                      "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ LEGEND X](https://t.me/legendx22)\n"
+                      "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/NEXTRONSUPPORT)\n"
+                      "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/NEXTRONSUPPORY)\n"
+                      "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ LEGEND X](https://t.me/Mr_godafther9)\n"
                                 "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/teamishere)" , link_preview = False) 
         await alive.delete()
