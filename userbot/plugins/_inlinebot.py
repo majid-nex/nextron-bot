@@ -114,7 +114,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         else:
             reply_pop_up_alert = help_string
         reply_pop_up_alert += "\n Use .unload {} to remove this plugin\n\
-            © LEGENDBOT".format(plugin_name)
+            © NEXTRON".format(plugin_name)
         try:
             #hellbot = [[Button.inline('Go back', 'back')]] 
             if event.query.user_id == bot.uid :
