@@ -13,6 +13,7 @@ async_generator
 beautifulsoup4
 bs4
 bwb==3.0.0
+coffeehouse
 cfscrape
 chromedriver_autoinstaller
 cowpy
