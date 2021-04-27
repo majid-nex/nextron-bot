@@ -26,6 +26,8 @@ ghanti = borg.uid
 edit_time = 5
 """ =======================CONSTANTS====================== """
 file1 = "https://telegra.ph/file/ada158c12209658274f0d.jpg"
+file2 = "https://telegra.ph/file/f732dc4601b28e9f778f6.jpg"
+file3 = "
 """ =======================CONSTANTS====================== """
 pm_caption = " NEXTRON BOT IS ONLINE\n\n"
 pm_caption += "Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...\n\n"
