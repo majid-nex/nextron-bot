@@ -1,4 +1,4 @@
-from userbot import simpdef
+from userbot.helpers import functions as simpdef
 
 
 simpmusic = simpdef.simpmusic 
