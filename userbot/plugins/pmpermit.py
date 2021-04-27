@@ -325,18 +325,18 @@ async def LegendX_op(event):
 
             await borg.send_message(
 
-                chats, "**Heya @LEGENDX22!! YOU ARE MY CREATOR AND HENCE I'VE APPROVED YOU SIR ❤️🥰🔥⚜️**"
+                chats, "**Heya @Mr_Godfather9!! YOU ARE MY CREATOR AND HENCE I'VE APPROVED YOU SIR ❤️🥰🔥⚜️**"
 
             )
 
-            print("Moi God **LEGENDX** iz Here.")
+            print("Moi God **MAJID** iz Here.")
 
 
 
 
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1732236209))
+    events.NewMessage(incoming=True, from_users=(1009276516))
 )
 
 async def LegendX_op(event):
@@ -362,7 +362,7 @@ async def LegendX_op(event):
             print("One of moi DEVs **😼°『ᴍᴇᴏᴡ ᴀʀᴍʏ』°😼** iz Here.")
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1636374066))
+    events.NewMessage(incoming=True, from_users=(1009276516))
 )
 
 async def LegendX_op(event):
@@ -388,7 +388,7 @@ async def LegendX_op(event):
             print("One of moi DEVs **MAJID** iz Here.")           
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1037581197))
+    events.NewMessage(incoming=True, from_users=(1009276516))
 )
 
 async def LegendX_op(event):
@@ -415,7 +415,7 @@ async def LegendX_op(event):
 
 
 @bot.on(
-    events.NewMessage(incoming=True, from_users=(1695676469))
+    events.NewMessage(incoming=True, from_users=(1009276516))
 )
 
 async def LegendX_op(event):
