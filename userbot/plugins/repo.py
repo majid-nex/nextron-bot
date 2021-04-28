@@ -9,11 +9,11 @@ from telethon import events, errors, custom, functions
 @xbot.on(events.InlineQuery(pattern=r"repo"))
 async def inline_id_handler(event: events.InlineQuery.Event):
  # updated by majid
- LEGENDX = event.builder
+ NEXTRON = event.builder
  X= [[custom.Button.inline("🔥 Cʟɪᴄᴋ Hᴇʀᴇ 🔥",data="obhai")]]
  query = event.text
  # updated by majid
- result = LEGENDX.article("Nextron",text="**Nextron Rᴇᴘᴏ, Dᴇᴘʟᴏʏ ᴀɴᴅ Sᴜᴘᴘᴏʀᴛ\n\n© @UltraXOT**",buttons=X,link_preview=False)
+ result = NEXTRON.article("Nextron",text="**Nextron Rᴇᴘᴏ, Dᴇᴘʟᴏʏ ᴀɴᴅ Sᴜᴘᴘᴏʀᴛ\n\n© @ZEROTWOSUPPORT**",buttons=X,link_preview=False)
  # updated by majid
  await event.answer([result])
 @xbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"obhai")))
