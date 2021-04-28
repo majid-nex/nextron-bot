@@ -50,12 +50,9 @@ for name in files:
 
 import userbot._core
 
-print(f"""HELLBOT IS ON!!! HELLBOT VERSION :-
-JOIN OFFICIAL CHAT GROUP AND UPDATES CHANNEL
-OFFICIAL GROUP :- @HELLBOT_OFFICIAL_CHAT
-OFFICIAL CHANNEL :- @HELLBOT_OFFICIAL
-DO .alive OR .ping CHECK IF I'M ON!
-IF YOU FACE ANY ISSUE THEN ASK AT CHAT GROUP.""")
+print(f"""₦ɆӾ₮ⱤØ₦ ɨš ᑎℴᗯ OＮℒÏＮΣ TYPE .alive or .ping for check
+JOIN SUPPORT CHANNEL - ZEROTWO SUPPORT
+NEXTRON VERSION - 1.1.1""")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
