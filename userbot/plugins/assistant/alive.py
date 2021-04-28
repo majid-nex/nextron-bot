@@ -21,7 +21,7 @@ async def awake(event):
   MAJID += "~~ **Tʜᴀɴᴋs ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴍᴇ** !!"
   BUTTON = [[Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{bot.me.username}"), Button.url(f"{BOT} Rᴇᴘᴏ", "https://github.com/majid-nex/nextron-bot")]]
   BUTTON += [[custom.Button.inline("Rᴇᴘᴏsɪᴛᴏʀɪᴇs »»", data="MAJID")]]
-  await xbot.send_file(event.chat_id, PHOTO, caption=LEGENDX,  buttons=BUTTON)
+  await xbot.send_file(event.chat_id, PHOTO, caption=MAJID,  buttons=BUTTON)
 
 
 
