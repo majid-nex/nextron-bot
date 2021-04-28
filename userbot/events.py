@@ -123,7 +123,7 @@ def register(**args):
 
                     if LOGSPAMMER:
                         await check.client.respond(
-                            "`Sorry, my ULTRA has crashed😔, check logs for more info.\
+                            "`Sorry, my NEXTRON has crashed😔, check logs for more info.\
                         \nThe error logs are stored in the NEXTRON's log chat.`"
                         )
 
