@@ -50,7 +50,7 @@ async def callback_query_handler(event):
   MAJID += "~~ **Tʜᴀɴᴋs ғᴏʀ ᴄʜᴇᴄᴋɪɴɢ ᴍᴇ** !!"
   BUTTONS = [[Button.url("Mᴀsᴛᴇʀ", f"https://t.me/{bot.me.username}"), Button.url(f"{BOT} Rᴇᴘᴏ", "https://github.com/majid-nex/nextron-bot")]]
   BUTTONS += [[custom.Button.inline("Rᴇᴘᴏsɪᴛᴏʀɪᴇs »»", data="MAJID")]]
-  await event.edit(text=LEGENDX, buttons=BUTTONS)
+  await event.edit(text=MAJID, buttons=BUTTONS)
 
 
 @xbot.on(events.NewMessage(pattern=("/repo")))
