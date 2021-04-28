@@ -1,5 +1,5 @@
 """ Userbot module for managing events.
- One of the main components of the ULTRA. """
+ One of the main components of the NEXTRON. """
 
 import sys
 from asyncio import create_subprocess_shell as asyncsubshell
@@ -62,7 +62,6 @@ def register(**args):
             try:
                 await func(check)
 
-            # Thanks to @LEGENDX22 for this HACK.
             # Raise StopPropagation to Raise StopPropagation
             # This needed for AFK to working properly
 
@@ -81,7 +80,7 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "[ULTRA Official Chat](https://t.me/ULTRAXOT)"
+                    link = "[NEXTRON Official Chat](https://t.me/ZEROTWOSUPPORT)"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
@@ -125,7 +124,7 @@ def register(**args):
                     if LOGSPAMMER:
                         await check.client.respond(
                             "`Sorry, my ULTRA has crashed😔, check logs for more info.\
-                        \nThe error logs are stored in the ULTRA's log chat.`"
+                        \nThe error logs are stored in the NEXTRON's log chat.`"
                         )
 
                     await check.client.send_file(send_to,
