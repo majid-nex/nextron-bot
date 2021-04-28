@@ -1,7 +1,3 @@
-# Echo remastered by @Kraken_The_BadASS for Hêllẞø†
-# Codes by @mrconfused 
-# Kang with credits
-
 import asyncio
 import base64
 import requests
