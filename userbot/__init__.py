@@ -26,21 +26,21 @@ LOAD_PLUG = {}
 #xbot = xbot 
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
-def HELP(**LEGENDX):
-	see = LEGENDX.get("NAME", None)
-	helper = LEGENDX.get("HELP", None)
+def HELP(**NEXTRON):
+	see = NEXTRON.get("NAME", None)
+	helper = NEXTRON.get("HELP", None)
 	if see is None:
-		LEGENDX["NAME"] = __name__
+		NEXTRON["NAME"] = __name__
 		CMD_HELP.update({see: helper})
 	elif helper is None:
-		LEGENDX[
-		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN\nJOIN @ULTRAXCHAT"
+		NEXTRON[
+		    "HELP"] = "🥺🥺NOT COMMAND HELP🥺🥺\nADDED HERE\nIF YOU WANT TO KNOW ABOUT THIS PLUG-IN"
 	else:
 	  CMD_HELP.update({see: helper})
 	CMD_HELP.update({see: helper})
 
 
-LEGEND_ID = ["1100231654"]
+NEXTRON_ID = ["1100231654"]
 
 """ PPE initialization. """
 
@@ -151,7 +151,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/LEGENDXOP/LEGEND-BOT.git")
+    "https://github.com/majid-nex/nextron-bot.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
