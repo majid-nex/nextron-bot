@@ -15,7 +15,7 @@ async def _(event):
     if event.sender_id == boy or event.sender_id == id or event.sender_id == 1619567296:
        pass
     else:
-       return await event.reply("deploy your own assistant check @UltraXoT")
+       return await event.reply("deploy your own assistant check @ZEROTWOSUPPORT")
     cmd = event.text.split(" ", maxsplit=1)[1]
     if not cmd:
         return await event.reply("What should I run ?..\n\nGive me something to run, u dumbo!!")
@@ -67,7 +67,7 @@ async def _(event):
     if event.sender_id == boy or event.sender_id == id:
        pass
     else:
-       return await event.reply("deploy your own assistant @UltraXoT")
+       return await event.reply("deploy your own assistant @ZEROTWOSUPPORT")
     cmd = event.text.split(" ", maxsplit=1)[1]
     if not cmd:
         return await event.reply("What should I execute?..\n\nGive me somwthing to execute, u dumbo!!")
@@ -77,7 +77,7 @@ async def _(event):
     )
     stdout, stderr = await process.communicate()
     result = str(stdout.decode().strip()) + str(stderr.decode().strip())
-    curruser = pro.username or "Ultra.on"
+    curruser = pro.username or "NEXTRON.on"
     uid = os.geteuid()
     if uid == 0:
         cresult = f"`{curruser}:~#` `{cmd}`\n`{result}`"
