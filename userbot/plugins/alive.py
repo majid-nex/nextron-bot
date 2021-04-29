@@ -15,12 +15,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "NEXTRONBOT"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO" , None)
-
-# Thanks to Sipak bro and Raganork.. 
-# animation Idea by @NOOB_GUY_OP (Sipakisking)
-# Made by @hellboi_atul ....and thanks to @Crackexy for the logos...
-# Kang with credits else gay...
-# alive.py for DC(DARK COBRA)
+#NEXTRON
 global ghanti
 ghanti = borg.uid
 edit_time = 5
