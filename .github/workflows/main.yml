@@ -1,3 +1,4 @@
+#NEXTRON:VERSION:1
 name: okk
 on: push
 jobs:
