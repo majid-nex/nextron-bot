@@ -17,5 +17,5 @@ jobs:
           commit_options: '--no-verify'
           repository: .
           commit_user_name: Majid
-          commit_user_email: majid3151w@gmail.com
-          commit_author: Majid <majid3151w@gmail.com>
+          commit_user_email: majid965023@gmail.com
+          commit_author: Majid <majid965023@gmail.com>
