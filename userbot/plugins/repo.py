@@ -27,7 +27,7 @@ async def callback_query_handler(event):
                  # updated by majdi
                     Button.url(f"🌚 Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 🌝", url="https://t.me/ZEROTWOSUPPORT")],
                     [Button.url(f"🔰 Dᴇᴘʟᴏʏ 🔰", url="https://heroku.com/deploy?template=https://github.com/majid-nex/NEXTRONBOT.git"),
-                     Button.url(f"💠 Sᴛʀɪɴɢ 💠", url="https://replit.com/majidyt/NEXTRONBOT#main.py"),
+                     Button.url(f"💠 Sᴛʀɪɴɢ 💠", url="https://replit.com/@majidyt/Nextron-bot"),
                 ]
             ]
                   )
