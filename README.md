@@ -1,6 +1,22 @@
 ## A POWERFULL USERBOT 
 THIS IS TELETHON MADE USERBOT AND ALSO PYTHON
 
+This is a USERBOT made for telegram. I made this NEXTRON with help of all other Userbot available in telegram. All credits goes to its Respective Owners....
+
+------------------------------------------------
+
+## Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
+
+## [String Session](https://replit.com/@legendx22/ULTRA-X)
+
+-------------------------------------------------
+
+## Sᴛᴀᴛᴜs Oғ Tʜɪs Bᴏᴛ
+<p align="left"><a href="https://github.com/majid-nex/nextron-bot/network/members"><img src="https://img.shields.io/github/forks/majid-nex/nextron-bot?label=Forks&logoColor=pink&style=social"></a><p align="left"><a href="https://github.com/majid-nex/nextron-bot/stargazers"><img src="https://img.shields.io/github/stars/majid-nex/nextron-bot?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/majid-nex/nextron-bot"><img src="https://img.shields.io/github/last-commit/majid-nex/nextron-bot?style=plastic"></a>
+
+## The owner would not be responsible for any kind of bans due to the bot...
+## Fᴏʀᴋ Aᴛ Yᴏᴜʀ Oᴡɴ Rɪsᴋ
+## Iɴsᴛᴀʟʟɪɴɢ
 
 ![NEXTRON](https://telegra.ph/file/ada158c12209658274f0d.jpg)
 
