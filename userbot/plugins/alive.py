@@ -23,7 +23,7 @@ pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/Mr_Godfather9)\n\n"
 
 pm_caption += "    [✨REPO✨](https://github.com/majid-nex/nextron-bot) 🔹 [📜License📜](https://github.com/majid-nex/nextron-bot/blob/master/LICENSE)"
 
-pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}]\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
