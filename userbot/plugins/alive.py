@@ -29,13 +29,13 @@ pm_caption += f"🛡️TELETHON🛡️ : `1.1.1` \n"
 
 pm_caption += f"😈NEXTRON😈       : __**1.1.1**__\n"
 
-pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
+pm_caption += f"⚜️SUPPORT⚜️            : `[join](https://t.me/zerotwosupport)`\n"
 
 pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/NEXTRONSUPPORT)\n"
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/Mr_Godfather9)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/majid-nex/nextron-bot) 🔹 [📜License📜](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)"pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+pm_caption += "    [✨REPO✨](https://github.com/majid-nex/nextron-bot) 🔹 [📜License📜](https://github.com/majid-nex/nextron-bot/blob/master/LICENSE)"pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
 @borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
