@@ -34,7 +34,7 @@ pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/HellBot_Officia
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/SupRemE_AnanD)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot)
+pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot)\n"
 
 pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
