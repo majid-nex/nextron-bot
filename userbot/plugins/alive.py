@@ -7,15 +7,6 @@ from telethon.tl.types import Channel, Chat, User
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "NEXTRON"
 
-ludosudo = Config.SUDO_USERS
-
-if ludosudo:
-    sudou = "True"
-else:
-    sudou = "False"
-
-kraken = bot.uid
-
 PM_IMG = "https://telegra.ph/file/ada158c12209658274f0d.jpg"
 pm_caption = "__**🔥🔥NEXTRON IS ALIVE🔥🔥**__\n\n"
 
