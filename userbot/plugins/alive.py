@@ -11,7 +11,7 @@ PM_IMG = "https://telegra.ph/file/ada158c12209658274f0d.jpg"
 pm_caption = "__**🔥🔥NEXTRON IS ALIVE🔥🔥**__\n\n"
 
 pm_caption += (
-    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
+    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}]』**\n\n"
 )
 pm_caption += f"😈NEXTRON😈       : 1.1.1/n/n"
 
