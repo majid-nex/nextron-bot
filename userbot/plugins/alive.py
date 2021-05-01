@@ -26,8 +26,6 @@ file3 = "https://telegra.ph/file/7e41ee98ec8e739f55c53.jpg"
 file4 = "https://telegra.ph/file/d97d4d36103ee7ad81aff.jpg"
 """ =======================CONSTANTS====================== """
 
-pm_caption += f"🛡️TELETHON🛡️ : {version.__version__}"
-
 pm_caption += f"😈NEXTRON😈       : 1.1.1/n/n"
 
 pm_caption += f"⚜️SUPPORT⚜️            : `[join](https://t.me/zerotwosupport)`\n"
