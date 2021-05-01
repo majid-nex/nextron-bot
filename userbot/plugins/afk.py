@@ -54,7 +54,7 @@ async def set_not_afk(event):
                 event.chat_id,
                 "Please set `PRIVATE_GROUP_BOT_API_ID` "
                 + "for the proper functioning of afk functionality "
-                + "Ask In @teamishere Chat grp to get help..\n\n `{}`".format(str(e)),
+                + "Ask In @zerotwosupport Chat grp to get help..\n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True,
             )
@@ -117,8 +117,8 @@ async def on_afk(event):
         #           afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
         message_to_reply = (
-            f"Hey!! My master is currently offline... Since when?\n**For** `{total_afk_time}`\n"
-            + f"\n\n__He left a reason BTW🧐__ :-\n{reason}"
+            f"Hey!! I am currently offline... when?\n**SINCE** `{total_afk_time}`\n"
+            + f"\n\n__REASON HE LEFT__ :-\n{reason}"
             if reason
             else f"**Heyy!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} .__\n\nWhen will I be back? Soon __Whenever I feel like coming back__🤧🚶🚶  "
         )
