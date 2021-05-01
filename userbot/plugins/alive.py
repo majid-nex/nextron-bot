@@ -1,5 +1,5 @@
-from userbot import *
-from userbot.utils
+from userbot import ALIVE_NAME
+from userbot.utils.admin_cmd, sudo_cmd
 from userbot.cmdhelp import CmdHelp
 from telethon import events, version
 from telethon.events import NewMessage
