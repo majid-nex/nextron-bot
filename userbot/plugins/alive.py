@@ -1,24 +1,27 @@
-from userbot import ALIVE_NAME
-from userbot.utils.admin_cmd, sudo_cmd
+from userbot import *
 from userbot.cmdhelp import CmdHelp
 from telethon import events, version
 from telethon.events import NewMessage
 from telethon.tl.custom import Dialog
 from telethon.tl.types import Channel, Chat, User
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "NEXTRONBOT"
-ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO" , None)
-#NEXTRON
-global ghanti
-ghanti = borg.uid
-edit_time = 5
-""" =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/ada158c12209658274f0d.jpg"
-file2 = "https://telegra.ph/file/f732dc4601b28e9f778f6.jpg"
-file3 = "https://telegra.ph/file/7e41ee98ec8e739f55c53.jpg"
-file4 = "https://telegra.ph/file/d97d4d36103ee7ad81aff.jpg"
-""" =======================CONSTANTS====================== """
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "NEXTRON"
 
+ludosudo = Config.SUDO_USERS
+
+if ludosudo:
+    sudou = "True"
+else:
+    sudou = "False"
+
+kraken = bot.uid
+
+PM_IMG = "https://telegra.ph/file/ada158c12209658274f0d.jpg"
+pm_caption = "__**🔥🔥NEXTRON IS ALIVE🔥🔥**__\n\n"
+
+pm_caption += (
+    f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『 [{DEFAULTUSER}](tg://user?id={kraken}) 』**\n\n"
+)
 pm_caption += f"😈NEXTRON😈       : 1.1.1/n/n"
 
 pm_caption += f"⚜️SUPPORT⚜️            : `[join](https://t.me/zerotwosupport)`\n"
