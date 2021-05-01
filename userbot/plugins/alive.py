@@ -23,12 +23,19 @@ file2 = "https://telegra.ph/file/f732dc4601b28e9f778f6.jpg"
 file3 = "https://telegra.ph/file/7e41ee98ec8e739f55c53.jpg"
 """ =======================CONSTANTS====================== """
 pm_caption = " NEXTRON BOT IS ONLINE\n\n"
-pm_caption += "Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...\n\n"
-pm_caption += "✘ About My System ✘\n\n"
-pm_caption += "➾  ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ  ☞ 1.1.1\n"
-pm_caption += "➾  ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ  ☞ [ᴊᴏɪɴ](https://t.me/zerotwosupport)\n"
-pm_caption += "➾♦ ʟɪᴄᴇɴꜱᴇ ♦ ☞ [SUPPORT](https://github.com/nextron-bot)\n"
-pm_caption += "➾ group ☞ [SUPPORT](https://t.me/nextronsupport)\n\n"
+
+ppm_caption += f"🛡️TELETHON🛡️ : 1.17.5\n"
+
+pm_caption += f"😈Nex†ron😈       : 1.1.1\n"
+
+pm_caption += f"⚜️Support⚜️            : [join](https:t.me/zerotwosupport)\n"
+
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/SupRemE_AnanD)\n\n"
+
+pm_caption += "    [✨REPO✨](https://github.com/hellboy-op/hellbot)
+
 pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 @borg.on(admin_cmd(pattern=r"alive"))
