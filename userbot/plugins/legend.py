@@ -10,9 +10,9 @@ from telethon.tl.types import ChannelParticipantsAdmins
 # uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = "https://telegra.ph/file/b52dac745beee068ec44d.jpg"
-pm_caption = "SABKA BAAP LEGEND X PRO\n\n"
+pm_caption = "IF YOU BAD THEN I AM YOUR DAD....... PRO\n\n"
 
-@borg.on(admin_cmd(pattern=r"legend"))
+@borg.on(admin_cmd(pattern=r"majid"))
 async def friday(alive):
     chat = await alive.get_chat()
     """ For .sexxy command, check if the bot is running.  """
@@ -20,7 +20,7 @@ async def friday(alive):
     await alive.delete()
 
     
-@borg.on(admin_cmd(pattern=r"legend", allow_sudo=True))
+@borg.on(admin_cmd(pattern=r"majid", allow_sudo=True))
 async def friday(alive):
     chat = await alive.get_chat()
     """ For .alive command, check if the bot is running.  """
