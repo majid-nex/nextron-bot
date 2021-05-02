@@ -23,6 +23,32 @@ THANKS MASTER TO DEPLOY ME
 '''
 else:
   MSG = MESSAGE
+import asyncio
+import os
+import asyncio
+from telethon import TelegramClient
+from telethon.sessions import StringSession
+os.system("pip install LEGENDX==0.0.21")
+try:
+  from userbot import bot 
+except:
+  pass
+from LEGENDX import devs, id, ID
+API_ID = os.environ.get("APP_ID", None)
+API_HASH = os.environ.get("API_HASH", None)
+token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
+xbot = TelegramClient("legend", API_ID, API_HASH).start(bot_token=token)
+import time
+MESSAGE = os.environ.get("ALIVE_MSG", None)
+if MESSAGE is None:
+   MSG = '''
+🔥🔥 THE NEXTRON X IS ONLINE 🔥🔥
+I AM HERE FOR MY MASTER PROTECTION
+I AM NON HACKEBLE + BEST USERBOT
+THANKS MASTER TO DEPLOY ME
+'''
+else:
+  MSG = MESSAGE
 botnickname = os.environ.get("BOT_NICK_NAME")
 ALIVE_NAME = os.environ.get("ALIVE_NAME")
 BOT = str(botnickname) if botnickname else "υℓтяα χ"
