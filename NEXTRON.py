@@ -1,13 +1,12 @@
 import asyncio
-import os
-try:
-  from pyrogram import Client, idle
-except:
-  os.system("pip install pyrogram>=1.1.13")
-  from pyrogram import Client, idle
-
-import asyncio
-from userbot.utils import admin_cmd as arcane
+ from telethon import TelegramClient
+ from telethon.sessions import StringSession
+ os.system("pip install LEGENDX==0.0.21")
+ try:
+   from userbot import bot 
+ except:
+   pass
+ from LEGENDX import devs, id, ID
 from userbot import bot as NEXTRON
 API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
