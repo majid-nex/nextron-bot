@@ -38,8 +38,8 @@ pm_caption += "➾ group ☞ [SUPPORT](https://t.me/nextronsupport)\n\n"
 
 pm_caption += f"➾  ᴍʏ ᴍᴀsᴛᴇʀ  ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
-@borg.on(admin_cmd(pattern=r"alive"))
-@borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
+@borg.on(admin_cmd(pattern=r"salive"))
+@borg.on(sudo_cmd(pattern=r"salive", allow_sudo=True))
 
 async def amireallyalive(yes):
     chat = await yes.get_chat()
@@ -103,8 +103,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-@borg.on(admin_cmd(outgoing=True, pattern="salive"))
-@borg.on(sudo_cmd(pattern=r"salive", allow_sudo=True))
+@borg.on(admin_cmd(outgoing=True, pattern="alive"))
+@borg.on(sudo_cmd(pattern=r"alive", allow_sudo=True))
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
