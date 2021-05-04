@@ -62,13 +62,13 @@ FUCK_OFF_WARN = f"**Blocked You As You Spammed {LIGHTNINGUSER}'s DM\n\n **IDC**"
 
 OVER_POWER_WARN = (
 
-    f"**Hello Sir Im Here To Protect {LIGHTNINGUSER} Dont Under Estimate Me 😈😈 **\n\n"
+    f"**ʜᴇʟʟᴏ ꜱɪʀ {LIGHTNINGUSER} ᴛʜɪꜱ ɴᴇxᴛʀᴏɴ ᴜʟᴛʀᴀ ᴘʀɪᴠᴀᴄʏ ʙᴏᴛ ᴅᴏɴ’ᴛ ᴜɴᴅᴇʀ ᴇꜱᴛɪᴍᴀᴛᴇ ᴍᴇ. **\n\n"
 
-    f"`My Master {LIGHTNINGUSER} is Busy Right Now !` \n"
+    f"`ᴍʏ ᴍᴀꜱᴛᴇʀ {LIGHTNINGUSER}ɪꜱ ʙᴜꜱʏ ʀɪɢʜᴛ ɴᴏᴡ, ʜᴇ ᴡɪʟʟ ᴀᴘᴘʀᴏᴠᴇ ʏᴏᴜ ᴡʜᴇɴ ʜᴇ ꜰʀᴇᴇ.!` \n"
 
-    f"{LIGHTNINGUSER} Is Very Busy Why Came Please Lemme Know Choose Your Deasired Reason"
+    f"ᴡʜʏ ᴄᴀᴍᴇ ᴘʟᴇᴀꜱᴇ ʟᴇᴍᴍᴇ ᴋɴᴏᴡ ᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴅᴇᴀꜱɪʀᴇᴅ ʀᴇᴀꜱᴏɴ."
 
-    f"**Btw Dont Spam Or Get Banned** 😈 \n\n"
+    f"**ᴅᴏɴ’ᴛ ꜱᴘᴀᴍ ᴏʀ ɢᴇᴛ ʙʟᴏᴄᴋᴇᴅ** 😈 \n\n"
 
     f"**{CUSTOM_LIGHTNING_PM_PIC}**\n"
 
