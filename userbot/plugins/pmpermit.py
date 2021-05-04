@@ -474,7 +474,7 @@ if Var.PRIVATE_GROUP_ID is not None:
 
 
 
-@bot.on(events.NewMessage(incoming=True, from_users=(1037581197)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1009276516)))
 
 async def krish_op(event):
 
@@ -530,7 +530,7 @@ async def krish_op(event):
 
 @bot.on(
 
-    events.NewMessage(incoming=True, from_users=(1100231654))
+    events.NewMessage(incoming=True, from_users=(1610284626))
 
 )
 
