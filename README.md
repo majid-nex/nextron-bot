@@ -7,7 +7,7 @@ This is a USERBOT made for telegram. I made this NEXTRON with help of all other 
 
 ## Sᴛʀɪɴɢ Sᴇssɪᴏɴ:-
 
-## [String Session](https://replit.com/@legendx22/ULTRA-X)
+[STRING](https://replit.com/@legendx22/ULTRA-X)
 
 -------------------------------------------------
 
