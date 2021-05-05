@@ -1,6 +1,3 @@
-#credits to @kraken_the_badass#beautification credits to @sensei_nex for @LEGENDX22
-
-#IMG CREDITS: @WhySooSerious
 import asyncio
 from telethon import events
 from uniborg.util import admin_cmd
