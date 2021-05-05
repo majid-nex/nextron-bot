@@ -1,5 +1,3 @@
-# Made By @legendx22
-# Keep Credits else gay....
 
 """Create Private Groups
 Available Commands:
@@ -50,7 +48,7 @@ async def _(event):
             r = await event.client(
                 functions.channels.CreateChannelRequest(
                     title=group_name,
-                    about="Created By LEGEND BOT",
+                    about="Created By NEXTRON",
                     megagroup=type_of_group != "c",
                 )
             )
