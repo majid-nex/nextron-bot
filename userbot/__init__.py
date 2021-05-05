@@ -120,7 +120,7 @@ if bool(ENV):
     # FedBan Premium Module
     F_BAN_LOGGER_GROUP = os.environ.get("F_BAN_LOGGER_GROUP", None)
 
-    #make by LEGEND X 
+    #make by MAJID
     botnickname = os.environ.get("BOT_NICK_NAME", None)
 
 # Heroku Credentials for updater.
