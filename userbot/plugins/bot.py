@@ -36,9 +36,9 @@ if TG_BOT_USER_NAME_BF_HER is not None:
             buttons = [
                 [
                     Button.url("✨𝚁𝙴𝙿𝙾✨", "https://github.com/majid-nex/nextron-bot"),
-                    Button.url("⚓𝙳𝙴𝙿𝙻𝙾𝚈⚓", "https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FArcane120%2Heroku-Setup&template=https%3A%2F%2Fgithub.com%2FArcane120%2FHeroku-Setup")],
-                    [Button.url("🚨𝚂𝚃𝚁𝙸𝙽𝙶🚨", "https://replit.com/@Arcane120/ArcaneBot#main.py"),
-                    Button.url("⚡𝙶𝚁𝙾𝚄𝙿⚡", "https://t.me/Arcane_Bot_Support"),
+                    Button.url("⚓𝙳𝙴𝙿𝙻𝙾𝚈⚓", "https://heroku.com/deploy?template=https://github.com/majid-nex/NEXTRONBOT.git")],
+                    [Button.url("🚨𝚂𝚃𝚁𝙸𝙽𝙶🚨", "https://replit.com/@majidyt/Nextron-bot#main.py"),
+                    Button.url("⚡𝙶𝚁𝙾𝚄𝙿⚡", "https://t.me/ZerotwoSupport"),
                 ]
             ]
             if ALIVE_PHOTTO and ALIVE_PHOTTO.endswith((".jpg", ".png", "gif", "mp4")):
