@@ -1,6 +1,6 @@
 import asyncio
 import os
-from userbot.legend import BOT
+from userbot.majid import BOT
 import requests
 import time
 from PIL import Image
