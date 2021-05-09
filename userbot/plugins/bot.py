@@ -19,7 +19,7 @@ from userbot.utils import admin_cmd
 from PIL import Image
 import requests
 from io import BytesIO
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝙰𝚁𝙲𝙰𝙽𝙴"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Nextron"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "✨ 𝙱𝙾𝚃 𝙸𝚂 𝚄𝙿 𝙰𝙽𝙳 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝚂𝙴𝚁𝚅𝙴 𝚈𝙾𝚄 𝙼𝙰𝚂𝚃𝙴𝚁✨"
 
@@ -51,14 +51,14 @@ if TG_BOT_USER_NAME_BF_HER is not None:
             elif ALIVE_PHOTTO:
                 result = builder.document(
                     ALIVE_PHOTTO,
-                    title="ARCANE BOT",
+                    title="NEXTRON BOT",
                     text=pro_text,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
-                    title="ARCANE BOT",
+                    title="NEXTRON BOT",
                     text=pro_text,
                     buttons=buttons,
                     link_preview=False,
