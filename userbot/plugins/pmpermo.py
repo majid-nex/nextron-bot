@@ -14,13 +14,11 @@ from userbot import (COUNT_PM, CMD_HELP, LOGGER, LOGGER_GROUP,
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG = (ʜᴇʟʟᴏ ꜱɪʀ {DEFAULTUSER} ᴛʜɪꜱ ɴᴇxᴛʀᴏɴ ᴜʟᴛʀᴀ ᴘʀɪᴠᴀᴄʏ ʙᴏᴛ ᴅᴏɴ’ᴛ ᴜɴᴅᴇʀ ᴇꜱᴛɪᴍᴀᴛᴇ ᴍᴇ. **\n\n"
-
-    f"`ᴍʏ ᴍᴀꜱᴛᴇʀ {DEFAULTUSER}ɪꜱ ʙᴜꜱʏ ʀɪɢʜᴛ ɴᴏᴡ, ʜᴇ ᴡɪʟʟ ᴀᴘᴘʀᴏᴠᴇ ʏᴏᴜ ᴡʜᴇɴ ʜᴇ ꜰʀᴇᴇ.!` \n"
-
-    f"ᴡʜʏ ᴄᴀᴍᴇ ᴘʟᴇᴀꜱᴇ ʟᴇᴍᴍᴇ ᴋɴᴏᴡ ᴄʜᴏᴏꜱᴇ ʏᴏᴜʀ ᴅᴇᴀꜱɪʀᴇᴅ ʀᴇᴀꜱᴏɴ."
-
-    f"**ᴅᴏɴ’ᴛ ꜱᴘᴀᴍ ᴏʀ ɢᴇᴛ ʙʟᴏᴄᴋᴇᴅ** 😈)
+UNAPPROVED_MSG = ("*Bleep Blop! This is a Bot. Don't fret* \n\n"
+                  "`If You Are Hater then Maderchod Maa Chudao Bhosdike MaderHod`.`"
+                  "`If You Are One Of My Friends Kindly Wait Till Me Come Online.`\n\n"
+                  "`As far as i know, he doesn't usually approve Retards.`\n\n"
+                  "`Spam Can make you blocked`")
 # =================================================================
 
 
