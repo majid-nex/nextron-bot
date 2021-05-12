@@ -7,7 +7,6 @@ except:
   from pyrogram import Client, idle
 
 import asyncio
-from userbot.utils import admin_cmd as majid
 from userbot import bot as Nextron
 API_ID = os.environ.get("APP_ID", None)
 API_HASH = os.environ.get("API_HASH", None)
