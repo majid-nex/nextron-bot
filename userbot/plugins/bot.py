@@ -23,7 +23,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Nextron"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 CUSTOM_ALIVE_TEXT = Config.ALIVE_MSG or "✨ 𝙱𝙾𝚃 𝙸𝚂 𝚄𝙿 𝙰𝙽𝙳 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝚂𝙴𝚁𝚅𝙴 𝚈𝙾𝚄 𝙼𝙰𝚂𝚃𝙴𝚁✨"
 
-pro_text=(f"**{CUSTOM_ALIVE_TEXT} **\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n⚓ About My System ⚓\n\n➾ **💔ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ💔** ☞ 1.17.5\n➾ **♐ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ♐** ☞ [ᴊᴏɪɴ](https://t.me/zerotwoSupport)\n➾ **✝ʟɪᴄᴇɴꜱᴇ✝**  ☞ [BOT](https://github.com/majid-nex/nextron-bot/License)\n➾ **☮ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ☮** ☞ [Majid](https://github.com/majid-nex)\n\n➾ **🤎ᴍʏ ᴍᴀsᴛᴇʀ🤎** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
+pro_text=(f"**{CUSTOM_ALIVE_TEXT} **\n\n**All system are working perfectly...**\n\n⚓ My System ⚓\n\n➾ **💔ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ💔** ☞ 1.17.5\n➾ **♐ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ♐** ☞ [ᴊᴏɪɴ](https://t.me/zerotwoSupport)\n➾ **✝ʟɪᴄᴇɴꜱᴇ✝**  ☞ [BOT](https://github.com/majid-nex/nextron-bot/blob/master/License)\n➾ **☮ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ☮** ☞ [Majid](https://github.com/majid-nex)\n\n➾ **🤎ᴍʏ ᴍᴀsᴛᴇʀ🤎** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
 TG_BOT_USER_NAME_BF_HER = os.environ.get("ALIVE_PHOTTO", None)
 if TG_BOT_USER_NAME_BF_HER is not None:
     @tgbot.on(events.InlineQuery)
