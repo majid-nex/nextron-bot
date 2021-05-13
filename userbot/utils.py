@@ -39,8 +39,8 @@ def load_extra(shortname):
     elif shortname.endswith("_"):
         import userbot.utils
 
-        path = Path(f"ULTRA_PLUGS/{shortname}.py")
-        name = "ULTRA_PLUGS.{}".format(shortname)
+        path = Path(f"Nex_PLUGS/{shortname}.py")
+        name = "Nex_PLUGS.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
@@ -48,8 +48,8 @@ def load_extra(shortname):
     else:
         import userbot.utils
 
-        path = Path(f"ULTRA_PLUGS/{shortname}.py")
-        name = "ULTRA_PLUGS.{}".format(shortname)
+        path = Path(f"Nex_PLUGS/{shortname}.py")
+        name = "Nex_PLUGS.{}".format(shortname)
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         mod.bot = bot
