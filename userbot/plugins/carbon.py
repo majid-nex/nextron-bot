@@ -22,9 +22,9 @@ from selenium import webdriver
 # fixed by madboy482
 # SAY NO TO KANGS, ELSE GEND FAD DI JAYEGI
 from selenium.webdriver.chrome.options import Options
-from ULTRA.utils import admin_cmd, edit_or_reply, sudo_cmd
-from ULTRA import ALIVE_NAME, CMD_HELP
-from ULTRA.helpers.functions import deEmojify
+from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from userbot import ALIVE_NAME, CMD_HELP
+from userbot.helpers.functions import deEmojify
 # fixed by madboy482
 # SAY NO TO KANGS, ELSE GEND FAD DI JAYEGI
 
