@@ -21,7 +21,7 @@ else:
     HMM_LOL = SPAM
 from ..import bot
 from NEXTRON import xbot
-FUCK_OFF_WARN = f"**Blocked You As You Spammed {ULTRA_USER}'s DM\n\n **IDC**"
+FUCK_OFF_WARN = f"**𝙱𝚕𝚘𝚌𝚔𝚎𝚍 𝚈𝚘𝚞 𝙰𝚜 𝚈𝚘𝚞 𝚂𝚙𝚊𝚖𝚖𝚎𝚍 {ULTRA_USER}'s 𝙳𝙼\n\n **𝙸𝙳𝙲**"
 async def LEGENDX(event, msg):
   global ULTRA_WRN
   if not event.sender_id in ULTRA_WRN:
@@ -104,7 +104,7 @@ if Var.PRIVATE_GROUP_ID is not None:
 
                     del ULTRA_REVL_MSG[chats.id]
 
-                ULTRA_X.approve(chats.id, f"Wow lucky, You have been Approved..")
+                ULTRA_X.approve(chats.id, f"𝚆𝚘𝚠 𝚕𝚞𝚌𝚔𝚢,  𝚢𝚘𝚞 𝚑𝚊𝚟𝚎 𝚋𝚎𝚎𝚗 𝙰𝚙𝚙𝚛𝚘𝚟𝚎𝚍..")
 
                 await event.edit(
 
