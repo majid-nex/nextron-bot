@@ -15,7 +15,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/legendx22/nextron-bot"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/majid-nex/nextron-bot"
 BOT_IS_UP_TO_DATE = "❂nextron is up-to-date!❂"
 NEW_BOT_UP_DATE_FOUND = (
     "**NEXTRON  Update Found For** {branch_name}\n"
