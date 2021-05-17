@@ -20,7 +20,7 @@ if SPAM is None:
 else:
     HMM_LOL = SPAM
 from ..import bot
-from ULTRAX import xbot
+from NEXTRON import xbot
 FUCK_OFF_WARN = f"**Blocked You As You Spammed {ULTRA_USER}'s DM\n\n **IDC**"
 async def LEGENDX(event, msg):
   global ULTRA_WRN
