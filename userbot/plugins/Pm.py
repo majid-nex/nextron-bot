@@ -326,11 +326,11 @@ async def LegendX_op(event):
 
             await borg.send_message(
 
-                chats, "**Heya @LEGENDX22!! YOU ARE MY CREATOR AND HENCE I'VE APPROVED YOU SIR ❤️🥰🔥⚜️**"
+                chats, "**𝙷𝚎𝚢𝚊 𝚖𝚊𝚓𝚒𝚍!! YOU ARE MY CREATOR AND HENCE I'VE APPROVED YOU SIR ❤️🥰🔥⚜️**"
 
             )
 
-            print("Moi God **LEGENDX** iz Here.")
+            print("Moi God **𝙼𝚊𝚓𝚒𝚍** iz Here.")
 
 
 
