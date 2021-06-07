@@ -26,9 +26,9 @@ CUSTOM_MIDDLE_PMP = (
     if CUSTOM_PMPERMIT
     else "**ʜᴇʏ ʏᴏᴜ ɴɪɢɢᴇ ! YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
 )
-USER_BOT_WARN_ZERO = "`You were spamming my Boss's inbox, henceforth your retarded lame ass has been blocked by my master's ⚜️─ѕєиѕєιвσт─⚜️.` "
+USER_BOT_WARN_ZERO = "`You were spamming my Boss's inbox, henceforth your retarded lame ass has been blocked by my master's ⚜️─NEXTRON─⚜️.` "
 USER_BOT_NO_WARN = (
-    "`Hello ! This is` **⚜️─ѕєиѕєιвσт─⚜️ SECURITY**\n"
+    "`Hello ! This is` **⚜️─Nextron─⚜️ SECURITY**\n"
     "`Private Messaging Security Protocol ⚠️`\n\n"
     "**My Boss**\n"
     f"{DEFAULTUSER} is a very busy person and you must take his/her sole permisiion ! So Better Don't Spam His Inbox and wait !\n\n"
