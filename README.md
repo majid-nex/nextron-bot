@@ -27,7 +27,6 @@ This is a USERBOT made for telegram. I made this NEXTRON with help of all other 
 
  -  I AM NOT GOING TO GIVE CREDIT TO ANY SPECIFIC USERBOT I ALREADY SAID THIS USERBOT IS MADE BY ALL USERBOT WHICH EXIST IN TELEGRAM
  -  MAJID IS ONLY A OWNER OF THIS BOT
- - Also thanks to legendx. 
 ## Mandatory Vars
 
 - Only two of the environment variables are mandatory.
