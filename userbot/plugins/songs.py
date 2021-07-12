@@ -6,7 +6,7 @@
 
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from ULTRA.utils import admin_cmd
+from userbot.utils import admin_cmd
 import asyncio
 
  
@@ -83,8 +83,8 @@ from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from validators.url import url
 from html import unescape
 from urllib.error import HTTPError
-from ULTRA.utils import admin_cmd, edit_or_reply, progress, humanbytes, time_formatter
-from ULTRA import CMD_HELP
+from userbot.utils import admin_cmd, edit_or_reply, progress, humanbytes, time_formatter
+from userbot import CMD_HELP
 import bs4
 from bs4 import BeautifulSoup
 from youtube_dl import YoutubeDL
@@ -482,7 +482,7 @@ async def _(event):
               await borg.send_message(event.chat_id, details)
               await conv.get_response()
               songh = await conv.get_response()
-              await borg.send_file(event.chat_id, songh, caption="🔆**Here's the requested song!**🔆\n`Check out` [LEGENDBOT](https://t.me/LEGENDBOT_Official)")
+              await borg.send_file(event.chat_id, songh, caption="🔆**Here's the requested song!**🔆\n`Check out` [BOT](https://t.me/nextronsupport)")
               await event.delete()
           except YouBlockedUserError:
               await event.edit("**Error:** `unblock` @DeezLoadBot `and retry!`")
