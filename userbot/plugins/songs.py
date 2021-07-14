@@ -348,8 +348,8 @@ async def download_video(v_url):
 
 from telethon import events
 import asyncio
-from ULTRA.events import register 
-from ULTRA import bot, CMD_HELP
+from userbot.events import register 
+from userbot import bot, CMD_HELP
 from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
@@ -400,9 +400,9 @@ async def getmusic(so):
 
 from telethon import events
 import asyncio
-#from ULTRA.utils import admin_cmd
-from ULTRA.events import register 
-from ULTRA import bot, CMD_HELP
+#from userbot.utils import admin_cmd
+from userbot.events import register 
+from userbot import bot, CMD_HELP
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 import os
 try:
