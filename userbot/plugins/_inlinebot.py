@@ -10,7 +10,6 @@ from telethon import Button, custom, events, functions, version
 
 from userbot import CMD_LIST
 from userbot import ALIVE_NAME
-from userbot import PHOTO
 from userbot.utils import admin_cmd, sudo_cmd
 from platform import uname
 
