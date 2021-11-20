@@ -20,7 +20,7 @@ This is a USERBOT made for telegram. I made this NEXTRON with help of all other 
 
 ![NEXTRON](https://telegra.ph/file/ada158c12209658274f0d.jpg)
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/majid-nex/nextronic.git)
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/majid-nex/nex-heruko.git)
 
 
 ## CREDITS
