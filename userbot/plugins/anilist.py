@@ -1,7 +1,7 @@
 """	
-	Anilist Search Plugin for Userbot	
-	Usage : .anilist animeName	
-	By :- @Zero_cool7870	
+	Anime Search Plugin for Userbot	
+	Usage : .anime animeName	
+	By :- @mr_godfater9
 """
 
 import requests 
@@ -75,8 +75,8 @@ async def formatJSON(outData):
         msg += " __" + re.sub("<br>", '\n', cat) +"__"
         return msg
         
-@bot.on(admin_cmd(pattern="anilist (.*)"))
-@bot.on(sudo_cmd(pattern="anilist (.*)", allow_sudo=True))
+@bot.on(admin_cmd(pattern="anime (.*)"))
+@bot.on(sudo_cmd(pattern="anime (.*)", allow_sudo=True))
 async def anilist(event):
     if event.fwd_from:
         return
@@ -87,7 +87,7 @@ async def anilist(event):
     await event.edit(msg, link_preview=True)
 
 CMD_HELP.update({
-    "anilist":
-    ".anilist <anime name >\
+    "anime":
+    ".anime <anime name >\
      \nUSAGE: Shows you the details of the anime."
 })
