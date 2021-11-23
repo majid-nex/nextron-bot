@@ -255,5 +255,5 @@ ISAFK = False
 AFKREASON = None
 SUDO_LIST = {}
 
-from ULTRA.helpers import *
-from ULTRA.helpers import functions as legdef
+from userbot.helpers import *
+from userbot.helpers import functions as legdef
